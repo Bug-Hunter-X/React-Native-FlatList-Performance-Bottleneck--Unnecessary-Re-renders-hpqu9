@@ -1,0 +1,1 @@
+In React Native, when using a FlatList or SectionList with a large dataset and complex item rendering logic, it's easy to introduce performance bottlenecks that cause UI stuttering or dropped frames.  One uncommon performance issue stems from unnecessary re-renders of list items, especially when item components are not properly memoized or optimized.
